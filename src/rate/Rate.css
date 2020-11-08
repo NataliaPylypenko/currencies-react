@@ -1,0 +1,51 @@
+
+.currency-name {
+    font-family: Oswald;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.currency-in, .currency-out {
+    font-size: 1.3rem;
+    text-align: right;
+    display: flex;
+}
+.currency-in p, .currency-out p {
+    margin-right: auto;
+}
+
+.flex-item {
+    width: calc(25% - 30px);
+}
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .flex-item {
+        width: calc(50% - 30px);
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .flex-item {
+        width: calc(100%);
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

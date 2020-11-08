@@ -1,0 +1,22 @@
+
+/*HEADER*/
+header {
+    background: #487922;
+    text-align: left;
+
+}
+.top-bar {
+    padding: 0;
+    font-size: 12px;
+    border-bottom: .4px solid #3b621c;
+    min-height: 40px;
+}
+.main-header {
+    padding: 20px 20px 25px;
+}
+.site-title {
+    color: #fff
+}
+.header-nav {
+    background: #3b621c;
+}

@@ -1,0 +1,77 @@
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+.footer-bottom {
+    background: #202020;
+    padding: 30px 20px;
+    -ms-text-align-last: right;
+    text-align: left;
+}
+.footer-bottom ul li a {
+    line-height: 5px;
+    color: #fff;
+    position: relative;
+    margin-left: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto Condenced', sans-serif;
+}
+.footer-bottom ul li a:hover {
+    color: #487922;
+}
+
+.footer-bottom ul {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.footer-bottom ul li:hover {
+    background: inherit;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.footer-title a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.footer-bottom .flex-item {
+    width: calc(33.33% - 30px);
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .hidden {
+        display: none;
+    }
+    .footer-bottom .flex-item {
+        width: calc(100%);
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
